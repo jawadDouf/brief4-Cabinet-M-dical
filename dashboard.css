@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: -webkit-pictograph;
+    background-color: #1479ff45;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.dashboard-links{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.dashboard-links a{
+    display: flex;
+    gap: 10px;
+}
+h3{
+    color: #1476FF;
+    
+}
+.header{
+    margin-left: 248px; /* Same as the width of the sidenav */
+     /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    background-color: #EEF5FF;
+}
+.user-notif{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 90px;
+}
+.user-notif img{
+    margin-top: 5px;
+}
+.user-notif span{
+    color: black;
+    position: relative;
+    top: -10px;
+    font-weight: bold;
+}
+.header-numbers{
+    
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 100vh;
+    margin-left: 32px;
+}
+.header-numbers img{
+    float: right;
+}
+.numbers-elements{
+    
+    width: 24%;
+    padding: 10px;
+    height: 18vh;
+}
+.numbers-elements:nth-child(1){
+    background-color: rgba(255, 0, 0, 0.397);
+}
+.numbers-elements:nth-child(2){
+   background-color: #33ca5e98;
+}
+.numbers-elements:nth-child(3){
+    background-color: #f7fa3c81;
+ }
+ .numbers-elements:nth-child(4){
+    background-color: #1479ff45;
+ }
+ .header-numbers-content{
+    background-color: white;
+    width: 91%;
+    height: 23%;
+    position: relative;
+    top: -85px;
+    
+ }
+ .add-button{
+     
+     background: #1479FF;
+    padding: 7px;
+    border-radius: 10px;
+    float: right;
+    margin: 8px 21px;
+ }
+ .add-button img{
+    float: left;
+ }
+ .form-titles{
+     display: flex;
+     justify-content: space-around;
+     padding: 15px;
+    margin: 37px;
+ }
+
+
+
+
+
+ @media (max-width: 800px){
+    .header-numbers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+ }
